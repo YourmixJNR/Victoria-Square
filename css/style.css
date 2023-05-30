@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
+
+:root {
+    --blue: #002285;
+    --bg-blue:#e6ecf7;
+    --orange:#ff6c06;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+}
+
+*::selection {
+    background:var(--orange);
+    color:#fff;
+}
+
+html {
+    font-size: 70%;
+    overflow-x: hidden;
+}
+
+body {
+    background:var(--bg-blue);
+}
+
+header {
+    top:0; left:0;
+    width:100%;
+    padding-left: 9%;
+    padding-right: 9%;
+    background: var(--bg-blue);
+    box-shadow: 0 .2rem 1rem rgba(0,0,0,.1);
+}
+
+header .bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: var(--bg-blue) !important;
+}
+
+header .bg-body-tertiary .nav-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar-brand .logo {
+    width: 80%;
+    display: inline-block;
+  }
+
+header .bg-body-tertiary .nav-div .navbar-collapse {
+    flex-grow: 0.1;
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 2rem;
+    border-width: 0;
+    border-color: #fff;
+}
+
+.btn {
+    padding: .8rem 2rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    background:var(--blue);
+    color:#fff;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.btn:hover {
+    background: #fff;
+    color: var(--blue);
+}
+
+
+/* Responsiveness */
+
+@media(max-width:991px){
+
+    header {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .navbar-toggler .tbtn {
+        font-size: 1.5rem;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item .nav-link {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    header {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .navbar-collapse .navbar-nav .nav-item .nav-link {
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+    
+    .navbar-toggler .tbtn {
+        font-size: 1.3rem;
+    }
+
+}
