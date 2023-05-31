@@ -30,23 +30,22 @@ body {
     background:var(--bg-blue);
 }
 
-header {
-    top:0; left:0;
-    width:100%;
-    padding-left: 9%;
-    padding-right: 9%;
-    background: var(--bg-blue);
-    box-shadow: 0 .2rem 1rem rgba(0,0,0,.1);
+section {
+    min-height: 100vh;
+    padding: 0 10%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
 }
 
 header .bg-body-tertiary {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
     --bs-bg-opacity: 0;
     background-color: var(--bg-blue) !important;
-}
-
-header .bg-body-tertiary .nav-div {
-    display: flex;
-    justify-content: space-between;
+    box-shadow: 0 .2rem 1rem rgba(0,0,0,.1);
 }
 
 header .navbar-brand .logo {
@@ -83,12 +82,50 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
     color: var(--blue);
 }
 
+.hero {
+    display: block;
+    text-align: center;
+    margin: 10% 0;
+}
+
+.hero .content h1 {
+    margin-bottom: 10%;
+    font-size: 6rem;
+    font-weight: 800;
+    color: #000;
+}
+
+.image img {
+    width: 100%;
+}
+
+.victorians {
+    text-align: center;
+    padding: 6rem 1rem;
+    background:url(../images/subscribe-bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.victorians h2{
+    font-size: 8rem;
+    font-weight: 700;
+    color:#fff;
+}
+
+.victorians p{
+    font-size: 2rem;
+    margin: 2rem auto;
+    font-weight: 300;
+    width: 80%;
+    color:#fff;
+}
 
 /* Responsiveness */
 
 @media(max-width:991px){
 
-    header {
+    header .bg-body-tertiary {
         padding-left: 2%;
         padding-right: 2%;
     }
@@ -113,13 +150,30 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
         margin-bottom: 2rem;
     }
 
+    .hero .content h1 {
+        font-size: 4rem;
+    }
+
+    .victorians h2{
+        font-size: 6rem;
+    }
+
+    .victorians p{
+        font-size: 1.8rem;
+        width:auto;
+    }
 }
 
 @media (max-width:768px){
 
-    header {
+    header .bg-body-tertiary {
         padding-left: 1%;
         padding-right: 1%;
     }
+
+    .victorians p{
+        width:auto;
+    }
+
 
 }
