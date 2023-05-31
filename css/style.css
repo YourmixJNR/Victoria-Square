@@ -277,8 +277,8 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
     }
 
     .culture .culture-box .box {
-        width: 100%;
-        padding: 5rem;
+        padding: 3rem;
+        width: 90%;
     }
 
     .culture .culture-box .box h3 {
