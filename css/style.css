@@ -167,8 +167,66 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 0%;
     width: 80%;
 }
+
+.culture h2 {
+    text-align: center;
+    font-weight: 600;
+    color: #000;
+}
+
+.culture .culture-box {
+    display: flex;
+    justify-content: center;
+}
+
+.culture .culture-box .box {
+    margin-top: 5rem;
+    width: 80%;
+    padding: 5rem;
+    border-radius: 5rem;
+    background: #ffffff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+.culture .culture-box .box h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #000;
+}
+
+.culture .culture-box .box p {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #000;
+}
+
+
+ /* .dev .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dev .box-container .box{
+    background:#fff;
+    margin:1rem;
+    padding:1rem;
+    text-align: center;
+    position: relative;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    flex: 1 1 20rem;
+    border-radius: .5rem;
+}
+
+.dev h1 {
+    text-align: center;
+} */
 
 /* Responsiveness */
 
@@ -216,6 +274,19 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
 
     .hero .content h1 {
         font-size: 4rem;
+    }
+
+    .culture .culture-box .box {
+        width: 100%;
+        padding: 5rem;
+    }
+
+    .culture .culture-box .box h3 {
+        font-size: 2rem;
+    }
+    
+    .culture .culture-box .box p {
+        font-size: 1.5rem;
     }
 
 }
