@@ -228,6 +228,110 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
      color: #000;
 }
 
+.beavic {
+    padding: 10rem;
+    border-radius: 3rem;
+}
+
+.beavic .dh2 {
+    font-weight: 600;
+}
+
+.beavic .btn-outline-success {
+    padding: 3rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #000;
+    background: #ff6c06;
+}
+
+.bottom {
+    margin-top: 10rem;
+    box-shadow: inset 0 0 0 2000px rgba(4, 0, 255, 0.3)
+}
+
+.bottom .dh2 {
+    font-weight: 600;
+}
+
+.bottom .ourfamily .behind {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    border-radius: 1rem;
+    background: #ff6c06;
+}
+
+.bottom .ourfamily .behind .dp {
+    text-align: left;
+    color: #000;
+}
+
+.bottom .ourfamily .dp {
+    text-align: left;
+}
+
+.bottom .ourfamily hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.bottom .ourfamily .product-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom .ourfamily .product-group .product {
+    flex: 1;
+    text-align: left;
+    padding: 25px;
+}
+
+.bottom .ourfamily .product-group .product h2 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.bottom .ourfamily .product-group .product ul li a {
+    display: inline-block;
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 1em;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    flex: 1;
+}
+
+.bottom .ourfamily h3 {
+    font-size: 3rem;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.bottom .ourfamily .icons {
+    margin-right: 2rem;
+    display: flex;
+    font-size: 3rem;
+    color: #e6ecf7;
+}
+
+.bottom .ourfamily .icons i {
+    margin-right: 1rem;
+}
+
 /* Responsiveness */
 
 @media(max-width:991px){
@@ -296,8 +400,11 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
 
     .departments .culture-box .box {
     flex-basis: 50%;
-}
+    }
 
+    /* .bottom .ourfamily .product-group .product ul li a {
+        font-size: 1.8rem;
+    } */
 
 }
 
@@ -311,6 +418,17 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
     .departments .culture-box .box {
         flex-basis: 70%;
     }
+
+    .beavic {
+        padding: 4rem;
+    }
+
+    .beavic .btn-outline-success {
+        padding: 2rem;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        font-size: 1.8rem;
+    }
     
 }
 
@@ -319,5 +437,17 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
     .departments .culture-box .box {
         flex-basis: 90%;
     }
+
+    .beavic {
+        padding: 2rem;
+    }
+
+    .beavic .btn-outline-success {
+        padding: 2rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-size: 1.8rem;
+    }
+    
     
 }
