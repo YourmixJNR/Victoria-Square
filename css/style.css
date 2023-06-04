@@ -184,7 +184,6 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
 
 .culture .culture-box .box {
     margin-top: 5rem;
-    /* width: 80%; */
     flex-basis: 80%;
     padding: 5rem;
     border-radius: 5rem;
@@ -311,7 +310,6 @@ header .bg-body-tertiary .nav-div .navbar-collapse {
 
 li {
     list-style-type: none;
-    flex: 1;
 }
 
 .bottom .ourfamily h3 {
@@ -319,6 +317,12 @@ li {
     text-align: left;
     color: #ffffff;
     font-weight: 500;
+}
+
+.vicd {
+    color: #ff6c06;
+    font-weight: 400;
+    font-size: 2rem;
 }
 
 .bottom .ourfamily .icons {
@@ -331,6 +335,12 @@ li {
 .bottom .ourfamily .icons i {
     margin-right: 1rem;
 }
+
+
+
+
+
+
 
 /* Responsiveness */
 
@@ -382,7 +392,6 @@ li {
 
     .culture .culture-box .box {
         padding: 3rem;
-        /* width: 90%; */
         flex-basis: 90%;
     }
 
@@ -402,9 +411,15 @@ li {
     flex-basis: 50%;
     }
 
-    /* .bottom .ourfamily .product-group .product ul li a {
+    .bottom .ourfamily .product-group .product ul li a {
         font-size: 1.8rem;
-    } */
+    }
+
+    .bottom .ourfamily .product-group .product h2,
+    .bottom .ourfamily h3,
+    .bottom .ourfamily .icons  {
+        font-size: 2.5rem;
+    }
 
 }
 
@@ -429,6 +444,12 @@ li {
         padding-right: 7rem;
         font-size: 1.8rem;
     }
+
+    .bottom .ourfamily .product-group .product h2,
+    .bottom .ourfamily h3,
+    .bottom .ourfamily .icons {
+        font-size: 2rem;
+    }
     
 }
 
@@ -449,5 +470,8 @@ li {
         font-size: 1.8rem;
     }
     
+    p.forcopy {
+        text-align: center;
+    }
     
 }
