@@ -1,1 +1,1 @@
-# Victoria-Square
+The Victoria Square project aims to create a property technology-driven platform that leverages blockchain technology to simplify and democratize the process of real estate acquisition for individuals worldwide. Our platform provides a user-friendly experience for property investors, enabling them to explore and invest in real estate opportunities using the power of blockchain.
